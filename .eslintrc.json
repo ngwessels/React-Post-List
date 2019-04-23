@@ -16,12 +16,19 @@
         "react"
     ],
     "rules": {
+    "react/no-direct-mutation-state": 2,
+    "react/prefer-stateless-function": 2,
+    "react/no-unused-state": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-uses-react": 2,
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-undef": 2,
     "react/no-multi-comp": 2,
     "react/jsx-key": 2,
+    "no-console": "warn",
+    "react/jsx-handler-names": 2,
+    "constructor-super": 2,
+    "react/prefer-stateless-function": "warn",
     "react/jsx-indent-props": [
         "error",
         2
